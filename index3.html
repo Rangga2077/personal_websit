@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome | Personal Intro</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Magnificat in Secula</div>
+            <ul class="nav-links">
+                <li><a href="index3.html">Home</a></li>
+                <li><a href="my-country.html">My Country</a></li>
+                <li><a href="food.html">Local Cuisines</a></li>
+                <li><a href="travel.html">Must-Visit Spots</a></li>
+                <li><a href="tips.html">Travelling Tips</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="hero">
+
+        <section class="intro">
+            <img src="image/profile.jpg" alt="Profile Picture" class="profile-pic">
+            <h1>Hi, I'm Rangga</h1>
+            <div class="hero-text">
+                <p id="dynamic-text">Welcome to my personal website.</p>
+                    <a href="profile.html">
+                        <button class="hero-button">
+                            <img src="image/profile_icon.svg" alt="Icon" width="90" height="90">
+                        </button>
+                    </a>
+                    <button class="hero-button-audio" onclick="playAudio()">
+                            <img src="image/audio.svg" alt="audio-icon" width="60" height="60">
+                    </button>
+                    <audio id="audio" src="audio/audio1.mp3"></audio>
+                    <script>
+                        function playAudio() {
+                            const audio = document.getElementById('audio');
+                            audio.play();
+                        }
+                    </script>
+
+            </div>  
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Rangga | Final Project</p>
+    </footer>
+</body>
+</html>
