@@ -13,6 +13,12 @@ body {
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #ff1212;
+}
+
 .nav-links {
     list-style: none;
     display: flex;
