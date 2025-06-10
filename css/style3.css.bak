@@ -10,7 +10,7 @@ body {
     align-items: center;
     padding: 20px 40px;
     background-color: #f4f4f4;
-    boxs-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 .nav-links {
