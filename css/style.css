@@ -22,6 +22,12 @@ body {
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff0b38;
+}   
+
 .nav-links {
     list-style: none;
     display: flex;
